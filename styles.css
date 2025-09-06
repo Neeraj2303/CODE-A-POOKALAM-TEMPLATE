@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d48c5bff;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first{
+    position: absolute;
+    animation-name: rot1;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.second{
+    position: absolute;
+    animation-name: rot2;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.third{
+    position: absolute;
+    animation-name: rot3;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.fourth{
+    position: absolute;
+    animation-name: rot4;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.fifth{
+    top: 39.5%;
+    position: absolute;
+}
+
+.sixth{
+    top: 56%;
+    position: absolute;
+    animation-name: move-left-right;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    ?
+}
+
+.seventh{
+    top: 56%;
+    position: absolute;
+}
+
+
+ @keyframes rot1 {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+
+@keyframes rot2 {
+         0% {transform: rotate(360deg);}
+        100% {transform: rotate(0deg);}
+    }
+
+@keyframes rot3 {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+
+@keyframes rot4 {
+        0% {transform: rotate(360deg);}
+        100% {transform: rotate(0deg);}
+    }
+
+@keyframes move-left-right {
+        0% {transform: translateX(0);}
+        25% {transform: translateX(-10px);}
+        50% {transform: translateX(0);}
+        75% {transform: translateX(10px);}
+        100% {transform: translateX(0);}
+    }
+
+.text-container{
+    padding: 0;
+    margin:0;
+}
+
+h1{
+    color: #cd111d;
+    font-family: "Fascinate", system-ui;
+    font-size: 55px;
+    text-align:center;
+    margin-top: -7vh;
+    animation-name:zoomin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-text-stroke: 1.1px #49100a;
+
+}
+
+@keyframes zoomin {
+    0%{
+        transform:scale(initial);
+    }
+    50%{
+        transform:scale(1.1);
+    }
+    100%{
+        transform:scale(initial);
+    }
+}
