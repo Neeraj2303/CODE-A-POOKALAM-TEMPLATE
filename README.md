@@ -16,7 +16,7 @@ The site is live at : https://neeraj2303.github.io/CODE-A-POOKALAM-TEMPLATE/
 
 ---
 
-#Preview
+## Preview
 <img width="1919" height="1029" alt="pookalam__preview" src="https://github.com/user-attachments/assets/c4bc97b7-9910-49ce-8dd3-a29e06c66d7f" />
 
 ---
